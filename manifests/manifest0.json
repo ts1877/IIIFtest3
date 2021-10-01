@@ -1,0 +1,66 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ts1877.github.io/IIIFtest3/manifests/manifest0.json",
+  "@type" : "sc:Manifest",
+  "label" : "Bruegel: Children’s Games",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  }, {
+    "@value" : "This oil painting is of children and adults engaged in a variety of rugged games."
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "CC BY-NC-SA 4.0 © KHM-Museumsverband",
+  "sequences" : [ {
+    "@id" : "http://c20b4b4f-a2ce-4f9b-96e4-53960907b4a5",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b",
+      "@type" : "sc:Canvas",
+      "label" : "Bruegel: Children’s Games",
+      "height" : 2165,
+      "width" : 3000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://302e0532-6db8-4bdb-b45d-3cde1d38f5dd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj106%2Fobj106.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj106%2Fobj106.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 400000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2165,
+          "width" : 3000
+        },
+        "on" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Framing Sentences",
+        "value" : "Pieter Bruegel the Elder (c 1525-1569) was a painter active in Holland and Flanders. He spent a number of years studying in Italy and was instrumental in bringing the lessons of the Italian Renaissance to the Netherlands. He did not, however, directly imitate Italian art; his works follow in the Northern European tradition established by Jan Van Eyck and Robert Campin, which emphasized filling the picture with significant and accurately-rendered detail, whereas Italian painters concentrated more on the overall design of the piece. Bruegel is one of the first European painters to paint scenes from a distant perspective, such that the human world shrinks in comparison with the landscape around it, an innovation that eventually gave rise to landscape painting (though Bruegel himself was always at pains to include human activities within the context of his landscapes; in essence, his interest was the human world in its natural context, not nature per se). Here we see one of Bruegel’s moral allegories, in which he depicts many simultaneous vignettes in a single painting to illustrate a moral point. In this case, the various rough and tumble games played by younger children blend almost imperceptibly with the games of adults (or, at least, very advanced adolescents) to make an ironic statement on the unproductive pursuits with which people occupy (or waste) their time. Many of the more than 80 games depicted continue to be played, such as marbles, hide-and-seek, and bowling."
+      }, {
+        "label" : "Artist/Maker",
+        "value" : "Pieter Bruegel the Elder"
+      }, {
+        "label" : "Date",
+        "value" : "CE 1560"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
