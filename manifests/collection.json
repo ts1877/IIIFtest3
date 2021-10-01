@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://ts1877.github.io/IIIFtest3/manifests/manifest0.json",
-    "label" : "Bruegel: Children’s Games"
-  } ]
+  "items" : [ ]
 }
