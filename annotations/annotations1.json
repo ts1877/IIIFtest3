@@ -1,0 +1,146 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "#fun",
+      "@type" : "oa:Tag",
+      "chars" : "#fun"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "It looks like these people are having fun.&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>It looks like these people are having fun.&nbsp;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/84538771",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-10-01T15:37:30",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633102650971",
+    "dcterms:modified" : "2021-10-01T15:37:30",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ts1877.github.io/IIIFtest3/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1509,1554,825,610"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1630.15983,1643.1679c76.18892,-51.2077 183.66573,-89.34034 291.66337,-89.29478v0v0c107.99764,0.04556 202.0817,35.71803 291.66337,89.29478c89.58167,53.57675 124.40092,135.21738 120.81092,215.57668c-3.59,80.35929 -45.58926,159.43725 -120.81092,215.57668c-75.22166,56.13943 -183.66573,89.34034 -291.66337,89.29478c-107.99764,-0.04556 -215.54886,-33.33759 -291.66337,-89.29478c-76.11451,-55.9572 -120.79232,-134.57956 -120.81092,-215.57668c-0.0186,-80.99711 44.62201,-164.36898 120.81092,-215.57668z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_630a1f8b-53ff-490c-b450-fdc0a617a875\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "This is an annotation. How exciting!&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This is an annotation. How exciting!&nbsp;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/84538771",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2021-10-01T15:36:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633102606977",
+    "dcterms:modified" : "2021-10-01T15:36:47",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ts1877.github.io/IIIFtest3/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1360,35,620,93"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1360.15015,35.2649h310.02603v0h310.02603v46.445v46.445h-310.02603h-310.02603v-46.445z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1fa8ae53-090c-4409-88fe-b2b26648d37c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "I'm not sure what these kids are doing, but here's some peasants dancing.&nbsp;\n<img src=\"https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj108%2Fobj108.jpg/full/full/0/default.jpg\" alt=\"\" width=\"150\" height=\"104\" />",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>I'm not sure what these kids are doing, but here's some peasants dancing.&nbsp;</p>\n<p><img src=\"https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj108%2Fobj108.jpg/full/full/0/default.jpg\" alt=\"\" width=\"150\" height=\"104\" /></p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "#dance",
+      "@type" : "oa:Tag",
+      "chars" : "#dance"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/84538771",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2021-10-01T19:42:12",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633117332892",
+    "dcterms:modified" : "2021-10-01T19:43:12",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ts1877.github.io/IIIFtest3/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=956,1028,415,448"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M955.77639,1028.07507h207.70403v0h207.70403v224.18043v224.18043h-207.70403h-207.70403v-224.18043z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ce768daf-2d58-4fbf-b683-645142a80f8a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.85455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "What is happening to this person?&nbsp;&macr;\\_(ツ)_/&macr;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>What is happening to this person?&nbsp;&macr;\\_(ツ)_/&macr;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/84538771",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2021-10-01T15:38:06",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633102686267",
+    "dcterms:modified" : "2021-10-01T15:38:06",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ts1877.github.io/IIIFTest2/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2648,1120,350,408"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2647.75861,1119.88567h175.20585v0h175.20585v203.98769v203.98769h-175.20585h-175.20585v-203.98769z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_430c3568-7d60-40dd-852b-08b32934d6d4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://9ad55f34-c8ee-47ad-9d4b-c8c8f2bf716b"
+    } ]
+  } ],
+  "@id" : "https://ts1877.github.io/IIIFtest3/annotations/annotations1.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
